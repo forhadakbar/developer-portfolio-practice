@@ -22,11 +22,11 @@ h1{
 
 .half-width{
     width: 50%;
-    padding:5%;
+    padding:2%;
 }
 
 .half-width img{
-    width: 100%;
+    width: 60%;
 }
 
 .link-button{
@@ -49,5 +49,47 @@ p{
     color: gray;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 50px;
+}
+
+
+.mid-section{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.lower-section{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.experience{
+    padding: 5%;
+    margin: 3%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+
+}
+
+#pro-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon,tomato)1;
+}
+
+#baby-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan)1;
+}
+
+#ex-title{
+    padding-left: 2%;
+}
+
+.footer{
+    text-align: center;
 }
 
